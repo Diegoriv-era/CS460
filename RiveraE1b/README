@@ -1,10 +1,13 @@
 Name: Diego Rivera
-Homework Assignment #1 CS-460
+Homework Assignment #1 CS-460 Programming Languages
   This program takes is ran through the command-line/terminal using g++.
   To run the program it also requires the name of the input file as a parameter
 
           g++ -o RiveraE1b RiveraE1b.cpp 
           ./RiveraE1b Input.txt          
+
+  The program is a simple Cash Register where you give an input file that has multiple transactions with a total and money given.
+  My program calculates the change along the least ammount of money denominations needed. Taking into account precision error. 
 
 What issues do you encounter as you wrote this program?
 
