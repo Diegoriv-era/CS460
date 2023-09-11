@@ -1,0 +1,19 @@
+Exercise 1b
+
+Name: Diego Rivera
+
+What issues do you encounter as you wrote this program?
+
+The issue I faced when I first wrote my program was precision error. I would try to convert 
+the input into cents rather than bills and cents. But the decimal would be off sometimes when
+I would factor it by 100
+
+
+What strategies did you use to solve the problem?
+
+Luckly I have already encountered this problem before and I quickly realized I forgot to include the round function from the "cmath" library. 
+
+How did you test your program?
+
+I tested this program with various inputs. I tested inputs that would only include bills, inputs with only coins,
+as well as big and small transactions. Tried to break it.
